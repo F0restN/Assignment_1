@@ -1,0 +1,36 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    font-size: 1em;
+}
+
+h1 {
+    font-style: italic;
+    color: #373fff;
+}
+
+/* Make the table a bit nicer
+From  https://www.w3schools.com/css/css_table.asp */
+table {
+    width: 80%;
+    text-align: left;
+
+}
+
+th {
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+/* Google "css color picker" for a Google search widget
+Using the rgb() function instead of hash */
+tr.even {
+    background-color: rgb(202, 220, 249);
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
