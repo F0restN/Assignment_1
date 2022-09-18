@@ -1,36 +1,39 @@
 /* CSS files add styling rules to your content */
-
-body {
+* {
     font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-    margin: 2em;
+    margin: 0 0 0 0;
     font-size: 1em;
 }
 
-h1 {
-    font-style: italic;
-    color: #373fff;
+nav {
+    height: 50px;
+    background: #1abc9c;
+    color: white;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Make the table a bit nicer
-From  https://www.w3schools.com/css/css_table.asp */
-table {
-    width: 80%;
-    text-align: left;
-
+nav img {
+    width: 100px;
+    height: 50px;
 }
 
-th {
-    font-weight: bold;
-    background-color: #ddd;
+.navbar_toggle {
+    flex: 1;
+    text-align: right;
 }
 
-/* Google "css color picker" for a Google search widget
-Using the rgb() function instead of hash */
-tr.even {
-    background-color: rgb(202, 220, 249);
+.navbar_toggle ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
 }
 
-th,
-td {
-    border-bottom: 1px solid #ddd;
+.navbar_toggle ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
 }

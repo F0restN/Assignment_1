@@ -2,127 +2,33 @@
 <html lang="en">
 
 <head>
-    <title>Activity 3</title>
+    <title>Batman</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Using the W3.css for some normalization -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- import the webpage's javascript file -->
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <h1>Hi there!</h1>
-
-    <p>
-        This is the web page for the week three activity. You're going to make it
-        more interesting with Javascript!
-    </p>
-    <div class="buttons">
-        <button id="button-one" onclick="button_one_function()">
-            One
-        </button>
-        <button id="button-two" onclick="button_two_function()">
-            Two
-        </button>
-        <button id="button-three" onclick="button_three_function()">
-            Three
-        </button>
-        <button id="button-four" onclick="button_four_function()">
-            Four
-        </button>
+    <div class="header">
+        <nav class="navbar_container">
+            <a href="index.html" class="logo">
+                <img src="./assets/logo.png" alt="Batman">
+            </a>
+            <div class="navbar_toggle">
+                <ul class="navbar_menu">
+                    <li><a href="/" class="navbar_item">HOME</a></li>
+                    <li><a href="/" class="navbar_item">STORY</a></li>
+                    <li><a href="/" class="navbar_item">SERIES</a></li>
+                    <li><a href="/" class="navbar_item">EQUIPMENT</a></li>
+                    <li><a href="/" class="navbar_item">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <h2>
-        Task One - Selecting Elements
-    </h2>
-    <p class="step-one">
-        You need to programmatically display the text value of the
-        <em id="task1">this element(Drake)</em> in this paragraph in the javascript console. You
-        will probably need to go look at the source HTML and figure out what would
-        be the most effective way to get the element in the previous sentence. It
-        will be tricky!
-    </p>
-    <h2>
-        Task Two - Styling Tables
-    </h2>
-    <table>
-        <tr>
-            <th>First</th>
-            <th>Last</th>
-            <th>Occupation</th>
-        </tr>
-        <tr>
-            <td>Bruce</td>
-            <td>Wayne</td>
-            <td>The Batman</td>
-        </tr>
-        <tr class="even" id="flag">
-            <td>Clark</td>
-            <td>Kent</td>
-            <td>Superman</td>
-        </tr>
-        <tr>
-            <td>Diana</td>
-            <td>Prince</td>
-            <td>Wonder Woman</td>
-        </tr>
-        <tr class="even">
-            <td>Peter</td>
-            <td>Parker</td>
-            <td>Spiderman</td>
-        </tr>
-        <tr>
-            <td>Þórr</td>
-            <td>ðunor</td>
-            <td>Thor</td>
-        </tr>
-        <tr class="even">
-            <td>Carol</td>
-            <td>Danvers</td>
-            <td>Captain Marvel</td>
-        </tr>
-        <tr>
-            <td>Tony</td>
-            <td>Stark</td>
-            <td>Iron Man</td>
-        </tr>
-        <tr class="even">
-            <td>Logan</td>
-            <td>Logan</td>
-            <td>Wolverine</td>
-        </tr>
-        <tr>
-            <td>Natasha</td>
-            <td>Romanova</td>
-            <td>Black Widow</td>
-        </tr>
-        <tr class="even">
-            <td>Thanos</td>
-            <td>Thanos</td>
-            <td>Thanos</td>
-        </tr>
-    </table>
 
-    <h2>
-        Task Three - Modify Grocery List
-    </h2>
-    <ul id='material'>
-        <li>Eggs</li>
-        <li>Bread</li>
-        <li>Oat Milk</li>
-        <li>Bananas</li>
-    </ul>
-    <h2>
-        Task Four - Adding Interactivity
-    </h2>
-    <p>
-        Do whatever you want!
-    </p>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
