@@ -1,0 +1,147 @@
+/* CSS files add styling rules to your content */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+    font-size: 1em;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 100px auto;
+    height: 70vh;
+    width: 100%;
+}
+
+nav {
+    /* height: 50px; */
+    background: #000000;
+    color: white;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+    height: 50px;
+}
+
+.navbar_toggle {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar_toggle ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navbar_toggle ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.navbar_toggle ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navbar_toggle ul li:hover::after {
+    width: 100%;
+}
+
+.header_paragraph {
+    height: calc(30vh-50px);
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(../assets/batman_background_header.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.header_paragraph h1 {
+    color: #fff;
+    margin-top: 10%;
+    font-size: 60px;
+    font-style: italic;
+}
+
+.header_paragraph p {
+    color: #fff;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Main */
+
+.main {
+    height: 150vh;
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+}
+
+.text-box {
+    width: 60%;
+    color: #fff;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: double beige;
+    padding: 15px;
+    background-color: rgb(59, 59, 59);
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    text-align: left;
+}
+
+.main button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    line-height: 10vh;
+    width: 100%;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot-article {
+    font: bold;
+    font-size: 20px;
+}
