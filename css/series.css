@@ -1,0 +1,45 @@
+.main_section_series {
+    /* height: 100vh; */
+    padding: 30px;
+}
+
+#title {
+    line-height: 60px;
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+.subTitle {
+    line-height: 60px;
+    width: 150px;
+    background-color: #000000;
+    position: relative;
+    left: 44.5%;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.subTitle_text {
+    color: #fff
+}
+
+.main_section article {
+    margin-top: 30px;
+}
+
+.main_section p {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.main_section_article {
+    margin-bottom: 15px;
+}
+
+.button_group {
+    margin-bottom: 20px;
+    text-align: center;
+}

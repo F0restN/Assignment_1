@@ -1,28 +1,51 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
 
-// prints "hi" in the browser's dev tools console
-console.log('This is Drake speaking, DO U COPY?');
+// Navigation
+function navigateToIndex() {
+    window.location.assign("./index.html")
+}
+const toIndex = document.getElementById("index");
+toIndex.addEventListener('click', navigateToIndex);
 
-
-function main_btn_function() {
+function navigateToStory() {
     window.location.assign("./story.html")
 }
-const viewMore = document.getElementById("main-btn");
-viewMore.addEventListener('click', main_btn_function);
+const toStory = document.getElementById("story");
+toStory.addEventListener('click', navigateToStory);
 
+function navigateToSeries() {
+    window.location.assign("./series.html")
+}
+const toSeries = document.getElementById("series");
+toSeries.addEventListener('click', navigateToSeries);
+
+function navigateToEquipment() {
+    window.location.assign("./equipment.html")
+}
+const toEquipment = document.getElementById("equipment");
+toEquipment.addEventListener('click', navigateToEquipment);
+
+function navigateToAbout() {
+    window.location.assign("./about.html")
+}
+const toAbout = document.getElementById("about");
+toAbout.addEventListener('click', navigateToAbout);
+
+// Current Page Indicate
 function navbar_item_function() {
     let pathname = window.location.pathname.split("/")
     let currentPage = pathname[pathname.length - 1].split(".")[0];
-    debugger
     let element = document.getElementById(currentPage);
     element.style.border = 'solid #fff'
     element.style.borderRadius = '10px'
-
 }
+
 navbar_item_function()
 const currentPageIndicate = document.getElementsByClassName("header");
 currentPageIndicate[0].addEventListener('DOMContentLoaded', navbar_item_function)
+
+// 
+
+
 // const navbarItem = document.getElementsByClassName("navbar_item");
 // navbarItem.addEventListener('click', navbar_item_function)
 
