@@ -10,33 +10,42 @@ Generally, this is website for my favorite superhero Batman. (I wont tell you th
 Element Set: `table`,`tr`,`th`, `ul`, `img`, `article`, `section`, `header`, `footer`, `nav`, `div`, `span`, `p` etc.
 
 **index.html**
-https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html
+(https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html)
 
 **story.html**
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fstory.html
+(https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fstory.html)
 
 **series.html**
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html
+(https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html)
 
 **equipment.html**
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fequipment.html
+(https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fequipment.html)
 
 **about.html**
-https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html
+(https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html)
 
 ## CSS
 
 **index.html**
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 **story.html**
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fstory.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fstory.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 **series.html**
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 **equipment.html**
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fequipment.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fequipment.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 **about.html**
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+(https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Javascript
+
+#### 2 Unique JS functions that create interactive
+ - function in about page(check aboutJS.js), pop up a notification and print words in console.
+ - function in header component(check script.js), indicate the current page
+
+#### 2 function that attached with addEventListener and modify style
+check series.html button group and seriesJS.js
