@@ -21,7 +21,7 @@ https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fse
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fequipment.html
 
 **about.html**
-
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html
 
 ## CSS
 
