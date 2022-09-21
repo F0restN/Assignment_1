@@ -1,11 +1,8 @@
 .main_section {
-    /* height: auto; */
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 /* Moment Set */
@@ -13,8 +10,8 @@
 .moment-card {
     /* height: 300px; */
     /* width: 90%; */
-    display: grid;
     padding: 0;
+    display: grid;
     grid-template-columns: auto auto;
     margin: 15px 20px 15px 20px;
     border: #000000 solid;

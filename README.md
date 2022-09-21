@@ -8,3 +8,31 @@ Generally, this is website for my favorite superhero Batman. (I wont tell you th
 
 ## HTML
 Element Set: `table`,`tr`,`th`, `ul`, `img`, `article`, `section`, `header`, `footer`, `nav`, `div`, `span`, `p` etc.
+
+**index.html**
+
+
+**story.html**
+
+**series.html**
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html
+
+**equipment.html**
+
+**about.html**
+https://assignment-1-drake.glitch.me/about.html
+
+## CSS
+
+**index.html**
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html
+
+**story.html**
+
+**series.html**
+https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html
+
+**equipment.html**
+
+**about.html**
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
