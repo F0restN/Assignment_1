@@ -17,24 +17,29 @@
     border: #000000 solid;
 }
 
-.moment-card img {
+.moment-card li {
+    list-style: none;
+    padding: 0;
+}
+
+.moment-card li img {
     height: 300px;
     border: #000000 solid;
 }
 
-.moment-card section {
+.moment-card li section {
     margin-right: 5px;
     padding: 15px;
 }
 
-.moment-card section h2 {
+.moment-card li section h2 {
     font-size: 30px;
     line-height: 40px;
     /* height: 300px; */
     /* justify-content: center; */
 }
 
-.moment-card section h3 {
+.moment-card li section h3 {
     text-align: end;
     font-size: 25px;
     line-height: 40px;
@@ -42,7 +47,7 @@
     /* justify-content: center; */
 }
 
-.moment-card section p {
+.moment-card li section p {
     margin-top: 20px;
     font-size: 15px;
     line-height: 20px;

@@ -13,6 +13,7 @@ Element Set: `table`,`tr`,`th`, `ul`, `img`, `article`, `section`, `header`, `fo
 https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Findex.html
 
 **story.html**
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fstory.html
 
 **series.html**
 https://validator.w3.org/nu/?doc=https%3A%2F%2Fassignment-1-drake.glitch.me%2Fseries.html
